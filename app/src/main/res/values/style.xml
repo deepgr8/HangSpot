@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="hangspot">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">#6B696A</item>
+    </style>
+    <style name="messages">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#717171</item>
+    </style>
+    <style name="don_t_have_">
+        <item name="android:textSize">19sp</item>
+        <item name="android:textColor">#808080</item>
+    </style>
+    <style name="AppTheme.ActionBar.Transparent" parent="AppTheme">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="windowActionBarOverlay">true</item>
+        <item name="colorAccent">@android:color/transparent</item>
+    </style>
+    <style name="Last_msg">
+        <item name="android:textSize">18sp</item>
+        <item name="android:letterSpacing">0.02</item>
+        <item name="android:textColor">#717171</item>
+    </style>
+    <style name="ToolbarStyle" parent="Widget.AppCompat.Toolbar">
+        <item name="navigationIcon">@drawable/baseline_arrow_circle_left_24</item>
+    </style>
+
+
+</resources>

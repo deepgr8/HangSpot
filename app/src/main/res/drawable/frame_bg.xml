@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#F2F2F2" /> <!-- Button background color -->
+
+    <corners
+        android:topLeftRadius="20dp"
+        android:topRightRadius="20dp"
+        android:bottomLeftRadius="0dp"
+        android:bottomRightRadius="0dp" /> <!-- Adjust the corner radius as needed -->
+</shape>

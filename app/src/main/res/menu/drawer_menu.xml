@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/no_notification"
+        android:icon="@drawable/baseline_notifications_off_24"
+
+        android:title="Snooze notification"/>
+    <item android:id="@+id/invitations"
+        android:icon="@drawable/baseline_mark_email_unread_24"
+        android:title="Invitations"/>
+    <item android:id="@+id/feedback"
+        android:icon="@drawable/baseline_help_24"
+        android:title="Help &amp; feedback"/>
+    <item android:id="@+id/logout"
+        android:title="logout"/>
+    
+</menu>

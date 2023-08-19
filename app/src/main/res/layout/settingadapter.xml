@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="110dp">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/frduserimg"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="22dp"
+        android:layout_gravity="center_vertical"/>
+
+    <TextView
+        android:id="@+id/frdUser"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="95dp"
+        android:layout_marginTop="-45dp"
+        android:text="@string/users_name"
+        android:textSize="18dp" />
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="46dp"
+        android:layout_gravity="end"
+        android:layout_marginEnd="70dp"
+        android:layout_marginTop="-35dp"
+        android:id="@+id/decline"
+        android:background="@drawable/baseline_cancel_24" />
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="46dp"
+        android:id="@+id/accept"
+        android:layout_gravity="end"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="-46dp"
+        android:background="@drawable/baseline_check_circle_24" />
+
+
+</LinearLayout>

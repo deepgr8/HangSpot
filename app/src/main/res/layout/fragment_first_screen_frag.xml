@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F2F2F2"
+    tools:context=".fragments.first_screen_frag">
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4.5dp"
+        android:gravity="center_horizontal"
+        android:text="HangSpot"
+        android:textAppearance="@style/hangspot"
+        android:textColor="#6B696A"
+        android:textSize="32sp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/chatListRecycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="71dp" />
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Hangspot"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_horizontal"
+        />
+    <TextView
+        android:id="@+id/startConversationTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Conversation Tap Add Friend icon....."
+        android:gravity="center"
+        android:textSize="12sp"
+        android:layout_marginTop="28dp"
+        android:layout_gravity="center_vertical"
+        />
+</FrameLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="?selectableItemBackground"
+    android:layout_height="110dp">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/calluserimg"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="19dp" />
+
+    <TextView
+        android:id="@+id/callnameUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="-50dp"
+        android:text="@string/users_name"
+        android:textSize="18dp" />
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="46dp"
+        android:layout_gravity="end"
+        android:layout_marginEnd="70dp"
+        android:layout_marginTop="-40dp"
+        android:id="@+id/video_call"
+        android:background="@drawable/baseline_video_call_24" />
+
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="36dp"
+        android:id="@+id/conversation"
+        android:layout_gravity="end"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="-42dp"
+        android:background="@drawable/baseline_send_24" />
+
+
+</LinearLayout>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">HangSpot</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="don_t_have_">Don\'t have an account ?</string>
+    <string name="signup">Sign up</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="username">Deepu Prajapati</string>
+    <string name="useremail">deepuprajapati@gmail.com</string>
+    <string name="users_name">Andreas</string>
+
+</resources>
