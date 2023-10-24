@@ -19,5 +19,6 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
     public void onMessageReceived(@NonNull RemoteMessage message) {
         super.onMessageReceived(message);
         Log.d("FCM", "onMessageReceived: "+ message.getNotification().getBody());
+        Log.d("FCM", "onMessageReceived: "+ message.getNotification().getBody());
     }
 }
