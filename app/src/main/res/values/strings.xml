@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">HangSpot</string>
+    <string name="app_name">Hangspot</string>
     <string name="open">Open</string>
     <string name="close">Close</string>
     <string name="don_t_have_">Don\'t have an account ?</string>

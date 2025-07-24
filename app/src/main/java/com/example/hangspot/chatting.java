@@ -48,7 +48,6 @@ public class chatting extends AppCompatActivity {
         username = findViewById(R.id.chatUserName);
         chatprofile = findViewById(R.id.chatprofile);
         backbtn = findViewById(R.id.backbutton);
-        searchbtn = findViewById(R.id.searchButton);
         sendbtn = findViewById(R.id.sendmsg);
         messgesArea = findViewById(R.id.typemsg);
         recyclerView =findViewById(R.id.recyclerViewchat);

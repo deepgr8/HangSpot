@@ -14,6 +14,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.bumptech.glide.Glide;
 import com.example.hangspot.Models.messagemodel;
 import com.example.hangspot.R;
 import com.google.firebase.auth.FirebaseAuth;
@@ -81,6 +82,8 @@ public class chatAdapter extends RecyclerView.Adapter {
         else {
             ((ReceiverViewHolder) holder).receiverText.setText(mmodel.getMessage());
         }
+
+
     }
 
     @Override

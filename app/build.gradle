@@ -5,11 +5,11 @@ plugins {
 
 android {
     namespace 'com.example.hangspot'
-    compileSdk 33
+    compileSdk 34
 
     defaultConfig {
         applicationId "com.example.hangspot"
-        minSdk 21
+        minSdk 23
         targetSdk 33
         versionCode 1
         versionName "1.0"
@@ -37,6 +37,7 @@ dependencies {
     implementation 'com.google.firebase:firebase-database:20.1.0'
     implementation 'com.google.firebase:firebase-messaging:23.1.0'
     implementation 'com.google.firebase:firebase-messaging-ktx:23.2.1'
+    implementation 'com.google.firebase:firebase-storage:22.0.0'
     annotationProcessor 'com.github.bumptech.glide:compiler:4.13.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
     implementation 'com.google.firebase:firebase-auth:21.0.1'

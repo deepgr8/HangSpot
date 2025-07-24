@@ -44,7 +44,7 @@ public class SplashScreen extends AppCompatActivity {
     FirebaseDatabase database;
     GoogleSignInClient signInClient;
     Button signUpbtn;
-    ImageView applogo;
+    TextView applogo;
     ProgressDialog progressDialog;
     private static final int SIGN_IN=1;
     @SuppressLint("MissingInflatedId")
@@ -63,8 +63,7 @@ public class SplashScreen extends AppCompatActivity {
             intent.putExtra("image",image);
             startActivity(intent);
         }
-        title = findViewById(R.id.hangspot);
-        applogo = findViewById(R.id.applogo);
+        applogo = findViewById(R.id.hangspot);
         signUpbtn = (Button) findViewById(R.id.signupbtn);
         progressDialog = new ProgressDialog(SplashScreen.this);
         progressDialog.setTitle("Creating Account....");
