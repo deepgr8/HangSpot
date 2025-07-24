@@ -4,6 +4,8 @@ One-to-one chat app with real-time communication and Google authentication.
 
 HangSpot is a one-to-one chat application built using Java, Android Studio, and Firebase Realtime Database. The app provides robust authentication and real-time communication features, making it easy for users to connect and interact.
 
+[APK Download](https://drive.google.com/file/d/1flEzxiKzbhclGKOOcIdZI5xIryQY6gR7/view?usp=share_link)
+
 ## Features
 - **Sign-Up & Authentication**: Implemented with Firebase Authentication for secure user access.
 - **Real-Time Communication**: Enabled using Firebase Realtime Database.
